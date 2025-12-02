@@ -1,0 +1,51 @@
+🚀 MOONSEC DISCORD BOT - BOT-HOSTING.NET
+
+READY TO USE - NO SETUP NEEDED!
+
+WHAT'S INCLUDED:
+✅ Discord token (hardcoded)
+✅ Client ID (hardcoded)
+✅ Deobfuscator
+✅ All dependencies in package.json
+
+UPLOAD & START:
+1. Download BotFIXED folder to your computer
+2. Go to bot-hosting.net
+3. Upload all files from BotFIXED
+4. Click START
+
+THAT'S IT!
+
+The bot will:
+- Install 150 packages (takes 1-2 min on first start)
+- Start automatically
+- Register /deobf and /gift commands
+- Run 24/7
+
+WHAT TO DO IF GETTING ERRORS:
+
+1. "401 Unauthorized" ERROR:
+   - Your Discord token might be invalid/expired
+   - Get a new token from: https://discord.com/developers/applications
+   - Replace token in: server/discord-bot.ts (line 13)
+
+2. "Module not found" ERROR:
+   - Make sure you uploaded ALL files
+   - Check that server/ folder is there
+   - Check attached_assets/ folder is there
+
+3. Long startup (5-10 mins):
+   - NORMAL on first start
+   - npm is installing 150 packages
+   - Let it finish!
+
+4. Still not working:
+   - Check bot-hosting.net logs
+   - Make sure Node v22 is selected
+   - Try restarting
+
+COMMANDS:
+/deobf <file> - Upload Moonsec V3 obfuscated Lua file
+/gift <user> <amount> - Gift tokens
+
+THAT'S ALL! Your bot will run 24/7 after upload.
